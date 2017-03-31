@@ -2,14 +2,15 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
+import { FocusCards } from '../components/focus-cards/focus-cards';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
+ 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    FocusCards
   ],
   imports: [
     IonicModule.forRoot(MyApp)
